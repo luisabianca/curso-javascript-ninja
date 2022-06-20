@@ -199,7 +199,7 @@ pessoa.apresentacao = function() {
     metro = 'metro'
   }
 
-  return `Olá, eu sou ${sexo} ${pessoa.nomeCompleto()}, tenho ${pessoa.idade} ${idade}, ${pessoa.altura}, meu peso é ${pessoa.peso} e, só hoje, eu já caminhei ${pessoa.caminhouQuantosMetros} ${metros}!`
+  return `Olá, eu sou ${sexo} ${pessoa.nome} ${pessoa.sobrenome}, tenho ${pessoa.idade} ${idade}, ${pessoa.altura}, meu peso é ${pessoa.peso} e, só hoje, eu já caminhei ${pessoa.caminhouQuantosMetros} ${metros}!`
 }
 
 // Agora, apresente-se ;)
